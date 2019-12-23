@@ -1,0 +1,20 @@
+{
+    "name": "s4if/rapor-smkit",
+    "type": "project",
+    "description": "Rapor SMKIT Ihsanul Fikri Mungkid",
+    "homepage": "https://www.s4if.xyz",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2",
+        "codeigniter4/framework": "^4@rc"
+    },
+    "require-dev": {
+        "mikey179/vfsstream": "1.6.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "@composer dump-autoload"
+        ]
+    }
+}
